@@ -17,7 +17,8 @@ class CreatePackTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('location');
-            $table->integer('number of days');
+            $table->integer('duration');
+            $table->string('period');
             $table->string('price');
             $table->timestamps();
         });
